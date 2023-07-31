@@ -4,6 +4,7 @@ app.use( express.json() );
 
 app.post( '/hook', ( req, res ) => {
     console.log( 'received webhook', req.body );
+    console.log( 'received webhook 2', req );
     res.sendStatus( 200 );
 } );
 
