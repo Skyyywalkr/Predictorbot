@@ -7,4 +7,4 @@ app.post( '/hook', ( req, res ) => {
     res.sendStatus( 200 );
 } );
 
-app.listen( 9000, () => console.log( 'Node.js server started on port 9000.' ) );
+app.listen( 80, () => console.log( 'Node.js server started on port 80.' ) );
