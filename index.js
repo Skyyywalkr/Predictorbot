@@ -6,7 +6,7 @@ const bot = new Telegraf('6474685886:AAGTqjT-05HyKpWBqWu0Jtapl5msFFDoC9E');
 // const bot = new Telegraf('6696209709:AAGaGqBbZ0zMGHekKM-JprKWpRJdnORpqhc');
 
 
-const data = JSON.parse(fs.readFileSync('DB.json', 'utf8'));
+const data = JSON.parse(fs.readFileSync('db.json', 'utf8'));
 
 
 // function searchMessageByCoinAndInterval(coinName, interval) {
