@@ -1,6 +1,340 @@
 {
-  "messages": [],
-  "task": [],
+  "messages": [
+    {
+      "message": "9: XMR (4-hours, daily), ATOM (12-hours, daily), PEPE (12-hours, daily), SAND (12-hours), ALGO (12 hours, daily), MANA (daily), SFP (12 hours, daily), WAVES (daily) + stop loss",
+      "messageID": 7,
+      "chatID": -1001535140674
+    },
+    {
+      "message": "3: DOGE (1-hour), ADA (30-minutes), XRP (4-hours)",
+      "messageID": 7,
+      "chatID": -1001584191634
+    },
+    {
+      "message": "4: BNB (1-hour), LINK (1-hour), SOL (1-hour)",
+      "messageID": 7,
+      "chatID": -1001939773975
+    },
+    {
+      "message": "5: LTC (15-minutes), DOT (6-hours), BCH (4-hours)",
+      "messageID": 7,
+      "chatID": -1001534894760
+    },
+    {
+      "message": "6: ARB (6 - hours), MATIC (12-hours), SHIB (daily)",
+      "messageID": 12,
+      "chatID": -1001900937607
+    },
+    {
+      "message": "7: TRX (daily), DOT (daily), AVAX (12-hours)",
+      "messageID": 13,
+      "chatID": -1001932900022
+    },
+    {
+      "message": "8: APE (daily), EOS (6-hours, 12-hours), NEAR (daily), ETC (6-hours, 12-hours) + stop loss",
+      "messageID": 5,
+      "chatID": -1001982017432
+    },
+    {
+      "message": "1: BTC (4-hours), ETH (4-hours)",
+      "messageID": 20,
+      "chatID": -1001847220602
+    },
+    {
+      "message": "2: BTC (15-minute, 1-hour), ETH (15-minute, 1-hour)",
+      "messageID": 9,
+      "chatID": -1001680496996
+    }
+  ],
+  "task": [
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29420.98! The cosmic tides favor growth. MCP Predictor predicts a stellar surge. Ready for the ride? 🚀",
+      "buyMessageID": 12,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29378.01. The cosmic symphony plays a tune of prosperity. MCP Predictor senses a stellar rise. 🚀",
+      "buyMessageID": 13,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29380.04. The celestial charts radiate green. MCP Predictor envisions a bullish breakout. 🚀",
+      "buyMessageID": 14,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29374.1. The galaxies gleam with growth. MCP Predictor senses a bullish beam. 🚀",
+      "buyMessageID": 15,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Stellar news! BTC 15-minute priced at $29396.35. Positive vibes resonate across the universe. A celestial opportunity beckons! 🌟",
+      "buyMessageID": 17,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Eureka! BTC 15-minute at $29408.84. The stars signal success. MCP Predictor predicts a bullish boost. 🌟",
+      "buyMessageID": 18,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29408.84 shines bright! MCP Predictor's star maps hint at a luminous path ahead. Ready to soar? 🚀",
+      "buyMessageID": 19,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29429.13. The galaxies align for a celestial climb. MCP Predictor predicts a luminous trajectory. 🚀",
+      "buyMessageID": 20,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 A new dawn approaches! BTC 15-minute at $29453.66. MCP Predictor's oracles foresee a bright trajectory. Embark with confidence! 🚀",
+      "buyMessageID": 21,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29426.15. The galaxies align for a celestial climb. MCP Predictor predicts a luminous trajectory. 🚀",
+      "buyMessageID": 22,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29438.42. The celestial charts radiate green. MCP Predictor envisions a bullish breakout. 🚀",
+      "buyMessageID": 23,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29448.01. The cosmic dance promises a golden era. MCP Predictor senses a stellar rally. 🚀",
+      "buyMessageID": 24,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29422.8. The universe whispers tales of prosperity. MCP Predictor envisions a radiant ascent. 🚀",
+      "buyMessageID": 25,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29409.46. The celestial stars signal success. MCP Predictor senses a bullish breakout. 🚀",
+      "buyMessageID": 26,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29416! MCP Predictor senses a cosmic rally. The stars align for a potential ascent. Ready to embark on this stellar journey? 🚀",
+      "buyMessageID": 27,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29400. The cosmic compass confirms climbs. MCP Predictor senses bullish brilliance. 🚀",
+      "buyMessageID": 28,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29382.08. The galaxies align for a celestial climb. MCP Predictor predicts a luminous trajectory. 🚀",
+      "buyMessageID": 29,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Stellar signal! BTC 15-minute at $29381.3. The universe unveils an uptrend. MCP Predictor predicts bullish bliss. 🌟",
+      "buyMessageID": 30,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29368.72. The cosmic dance promises a golden era. MCP Predictor senses a stellar rally. 🚀",
+      "buyMessageID": 31,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 Stellar signal! BTC 15-minute at $29391.9. The universe unveils an uptrend. MCP Predictor predicts bullish beauty. 🌟",
+      "buyMessageID": 32,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Eureka! BTC 15-minute at $29407.95. The galaxies gleam with growth. MCP Predictor predicts a bullish beam. 🌟",
+      "buyMessageID": 33,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29375.44. The cosmic currents carry gains. MCP Predictor senses a bullish climb. 🚀",
+      "buyMessageID": 34,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29418.26! The cosmic tides favor growth. MCP Predictor predicts a stellar surge. Ready for the ride? 🚀",
+      "buyMessageID": 35,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29425. The celestial cycles signal success. MCP Predictor senses a bullish bounce. 🚀",
+      "buyMessageID": 36,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29428.02. The celestial stars signal success. MCP Predictor senses a bullish breakout. 🚀",
+      "buyMessageID": 37,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29455.76 shines bright! MCP Predictor's star maps hint at a luminous path ahead. Ready to soar? 🚀",
+      "buyMessageID": 38,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29455.76. The universe whispers tales of prosperity. MCP Predictor envisions a radiant ascent. 🚀",
+      "buyMessageID": 39,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 Stellar alert! BTC 15-minute at $29338. The cosmic winds whisper of gains. MCP Predictor predicts a bullish breeze. 🌟",
+      "buyMessageID": 40,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Stellar vibes! BTC 15-minute at $29351.45. The universe hums with positivity. MCP Predictor sees a path of radiance. 🌟",
+      "buyMessageID": 41,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29297.84. The constellations favor a rise. MCP Predictor's charts glow with promise. Ready to ascend? 🚀",
+      "buyMessageID": 42,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29317.99! MCP Predictor senses a cosmic rally. The stars align for a potential ascent. Ready to embark on this stellar journey? 🚀",
+      "buyMessageID": 43,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29335.83. The stars shine with promise. MCP Predictor predicts a cosmic climb. 🚀",
+      "buyMessageID": 46,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-hour at $29335.83. The galaxies gleam with growth. MCP Predictor senses a bullish beam. 🚀",
+      "buyMessageID": 47,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "1-hour"
+    },
+    {
+      "message": "🟢 A new dawn approaches! BTC 15-minute at $29324.69. MCP Predictor's oracles foresee a bright trajectory. Embark with confidence! 🚀",
+      "buyMessageID": 48,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29334.01. The celestial charts radiate green. MCP Predictor envisions a bullish breakout. 🚀",
+      "buyMessageID": 49,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 A new dawn approaches! BTC 15-minute at $29170.01. MCP Predictor's oracles foresee a bright trajectory. Embark with confidence! 🚀",
+      "buyMessageID": 50,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29181. The celestial cycles signal success. MCP Predictor senses a bullish bounce. 🚀",
+      "buyMessageID": 51,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29181.73. The stars shine with promise. MCP Predictor predicts a cosmic climb. 🚀",
+      "buyMessageID": 52,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 15-minute at $29203.41! MCP Predictor senses a cosmic rally. The stars align for a potential ascent. Ready to embark on this stellar journey? 🚀",
+      "buyMessageID": 53,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Alert! BTC 15-minute at $29230.34. The cosmic compass points north. MCP Predictor senses a bullish horizon. 🌌",
+      "buyMessageID": 54,
+      "chatID": -1001680496996,
+      "coin": "BTC",
+      "interval": "15-minute"
+    },
+    {
+      "message": "🟢 Paradisers, BTC 1-min at $25940.01. The stars shine with promise. MCP Predictor predicts a cosmic climb. 🚀",
+      "buyMessageID": 39,
+      "chatID": -1001847220602,
+      "coin": "BTC",
+      "interval": "1-min"
+    }
+  ],
   "buy": [
     "🟢 Paradisers, #Coin at $X! MCP Predictor senses a cosmic rally. The stars align for a potential ascent. Ready to embark on this stellar journey? 🚀",
     "🟢 Stellar news! #Coin priced at $X. Positive vibes resonate across the universe. A celestial opportunity beckons! 🌟",
