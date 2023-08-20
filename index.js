@@ -2,8 +2,8 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const {Telegraf} = require('telegraf');
-const bot = new Telegraf('6474685886:AAGTqjT-05HyKpWBqWu0Jtapl5msFFDoC9E');
-// const bot = new Telegraf('6696209709:AAGaGqBbZ0zMGHekKM-JprKWpRJdnORpqhc');
+// const bot = new Telegraf('6474685886:AAGTqjT-05HyKpWBqWu0Jtapl5msFFDoC9E');
+const bot = new Telegraf('6696209709:AAGaGqBbZ0zMGHekKM-JprKWpRJdnORpqhc');
 
 
 const data = JSON.parse(fs.readFileSync('db.json', 'utf8'));
@@ -117,9 +117,7 @@ if(foundtask){
 bot.telegram.sendMessage( foundtask.chatID, formattedMessage, {
   reply_to_message_id: foundtask.buyMessageID,
 })
-}else{
-  console.log("No task Found")
-}
+
 if (indexToRemove !== -1) {
   data.task.splice(indexToRemove, 1);
 
@@ -128,6 +126,10 @@ if (indexToRemove !== -1) {
   console.log(`Message removed successfully.`);
 } else {
   console.log(`Messagen not found.`);
+}
+
+}else{
+  bot.telegram.sendMessage( chatID, formattedMessage)
 }
 
 }
