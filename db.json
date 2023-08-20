@@ -1,56 +1,6 @@
 {
   "messages": [
     {
-      "message": "9: XMR (4H, 1D), ATOM (12H, 1D), PEPE (12H, 1D), SAND (12H), ALGO (12H, 1D), MANA (1D), SFP (12H, 1D), WAVES (1D) + stop loss",
-      "messageID": 7,
-      "chatID": -1001535140674
-    },
-    {
-      "message": "3: DOGE (1H), ADA (30min), XRP (4H)",
-      "messageID": 7,
-      "chatID": -1001584191634
-    },
-    {
-      "message": "4: BNB (1H), LINK (1H), SOL (1H)",
-      "messageID": 7,
-      "chatID": -1001939773975
-    },
-    {
-      "message": "5: LTC (15min), DOT (6H), BCH (4H)",
-      "messageID": 7,
-      "chatID": -1001534894760
-    },
-    {
-      "message": "6: ARB (6H), MATIC (12H), SHIB (1D)",
-      "messageID": 12,
-      "chatID": -1001900937607
-    },
-    {
-      "message": "7: TRX (1D), DOT (1D), AVAX (12H)",
-      "messageID": 13,
-      "chatID": -1001932900022
-    },
-    {
-      "message": "8: APE (1D), EOS (6H, 12H), NEAR (1D), ETC (6H, 12H) + stop loss",
-      "messageID": 5,
-      "chatID": -1001982017432
-    },
-    {
-      "message": "1: BTC (4H), ETH (4H)",
-      "messageID": 20,
-      "chatID": -1001847220602
-    },
-    {
-      "message": "2: BTC (15min, 1H), ETH (15min, 1H)",
-      "messageID": 9,
-      "chatID": -1001680496996
-    },
-    {
-      "message": "test",
-      "messageID": 63,
-      "chatID": -1001968023714
-    },
-    {
       "message": "1: BTC (4H), ETH (4H)",
       "messageID": 64,
       "chatID": -1001968023714
