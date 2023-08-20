@@ -73,7 +73,7 @@ app.post('/hook', (req, res) => {
     const randomMessage = messageArray[randomIndex];
 
    
-    const formattedMessage = randomMessage.replace(/#Coin/g, coin +" "+interval).replace(/\$X/g, `$${close}`);
+    const formattedMessage = randomMessage.replace(/#Coin/g, coin +" "+"(" +interval+")").replace(/\$X/g, `$${close}`);
 
     const messageData = searchMessageByCoinAndInterval(coin,interval);
 
@@ -129,7 +129,9 @@ if (indexToRemove !== -1) {
 }
 
 }else{
-  bot.telegram.sendMessage( chatID, formattedMessage)
+  bot.telegram.sendMessage( chatID, formattedMessage, {
+    reply_to_message_id: messageID,
+  })
 }
 
 }
