@@ -1,22 +1,22 @@
 {
   "messages": [
     {
-      "message": "9: XMR (4H, 1D), ATOM (12H, 1D), PEPE (12H, 1D), SAND (12H), ALGO (12H, 1D), MANA (1D), SFP (12H, 1D), WAVES (1D) + stop loss",
+      "message": "9: XMR (1H, 4H, 1D), ATOM (1H, 12H, 1D), PEPE (1H, 12H, 1D), SAND (1H, 12H), ALGO (1H, 12H, 1D), MANA (1H, 1D), SFP (1H, 12H, 1D), WAVES (1H, 1D) + stop loss",
       "messageID": 7,
       "chatID": -1001535140674
     },
     {
-      "message": "3: DOGE (1H), ADA (30min), XRP (4H)",
+      "message": "3: DOGE (15min, 1H), ADA (15min, 30min, 1H), XRP (15min, 1H, 4H)",
       "messageID": 7,
       "chatID": -1001584191634
     },
     {
-      "message": "4: BNB (1H), LINK (1H), SOL (1H)",
+      "message": "4: BNB (15min, 1H), LINK (15min, 1H), SOL (15min, 1H)",
       "messageID": 7,
       "chatID": -1001939773975
     },
     {
-      "message": "5: LTC (15min), DOT (6H), BCH (4H)",
+      "message": "5: LTC (15min, 1H), DOT (15min, 1H, 6H), BCH (15min, 1H, 4H)",
       "messageID": 7,
       "chatID": -1001534894760
     },
@@ -31,7 +31,7 @@
       "chatID": -1001932900022
     },
     {
-      "message": "8: APE (1D), EOS (6H, 12H), NEAR (1D), ETC (6H, 12H) + stop loss",
+      "message": "8: APE (1H, 1D), EOS (1H, 6H, 12H), NEAR (1H, 1D), ETC (1H, 6H, 12H) + stop loss",
       "messageID": 5,
       "chatID": -1001982017432
     },
@@ -47,6 +47,7 @@
     }
   ],
   "task": [],
+  "pendingSignals": [],
   "buy": [
     "🟢 Paradisers, #Coin at $X! MCP Predictor senses a cosmic rally. The stars align for a potential ascent. Ready to embark on this stellar journey? 🚀",
     "🟢 Stellar news! #Coin priced at $X. Positive vibes resonate across the universe. A celestial opportunity beckons! 🌟",
