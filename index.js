@@ -72,10 +72,10 @@ async function checkFundingRateCondition(coin, action, interval) {
       throw new Error(`No data found for coin: ${coin}`);
     }
 
-    const BinanceMarginFunding = matchingData.uMarginList[0]?.rate;
-    const OKXMarginFunding = matchingData.uMarginList[1]?.rate;
-    const BinanceCoinFunding = matchingData.cMarginList[0]?.rate;
-    const OKXCoinFunding = matchingData.cMarginList[1]?.rate;
+    const BinanceMarginFunding = matchingData.uMarginList[0]? matchingData.uMarginList[0].rate:'';
+    const OKXMarginFunding = matchingData.uMarginList[1]? matchingData.uMarginList[1].rate:'';
+    const BinanceCoinFunding = matchingData.cMarginList[0]?matchingData.cMarginList[0].rate:'';
+    const OKXCoinFunding = matchingData.cMarginList[1]?matchingData.cMarginList[1].rate:'';
 
     console.log(BinanceMarginFunding);
     console.log(OKXMarginFunding);
