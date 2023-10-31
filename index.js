@@ -234,7 +234,8 @@ console.log("intervalinMin",intervalinMin)
 
 async function asyncPart(coin, interval, close, action, formattedMessage, messageID, chatID) {
   try {
-   const fundingRateConditionMet = await checkFundingRateCondition(coin, action, interval);
+  const fundingRateConditionMet = await checkFundingRateCondition(coin, action, interval);
+
 
     if (fundingRateConditionMet) {
 
@@ -250,9 +251,20 @@ async function asyncPart(coin, interval, close, action, formattedMessage, messag
       }
 
       if (action === "BUY") {
+
+        const foundtask = data.task.find((message) =>
+        message.coin.includes(coin) && message.interval.includes(interval)
+      ) ? data.task.find((message) =>
+        message.coin.includes(coin) && message.interval.includes(interval)
+      ) : null;
+
+      const indexToRemove = data.task.findIndex((message) =>
+        message.coin.includes(coin) && message.interval.includes(interval));
+
+        if (foundtask) {
   
-        bot.telegram.sendMessage(chatID, formattedMessage, {
-          reply_to_message_id: messageID,
+        bot.telegram.sendMessage(foundtask.chatID, formattedMessage, {
+          reply_to_message_id: foundtask.sellMessageID,
         }).then((result) => {
   
           const buyMessageID = result.message_id;
@@ -268,6 +280,36 @@ async function asyncPart(coin, interval, close, action, formattedMessage, messag
           fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
   
         });
+
+        if (indexToRemove !== -1) {
+          data.task.splice(indexToRemove, 1);
+
+          fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
+
+          console.log(`Message removed successfully.`);
+        } else {
+          console.log(`Messagen not found.`);
+        }
+
+      }else {
+        console.log("Buy Failed")
+        bot.telegram.sendMessage(chatID, formattedMessage).then((result) => {
+  
+          const buyMessageID = result.message_id;
+  
+          data.task.push({
+            'message': formattedMessage,
+            'buyMessageID': buyMessageID,
+            'chatID': chatID,
+            'coin': coin,
+            'interval': interval
+          })
+  
+          fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
+  
+        });
+
+      }
       } else if (action === "SELL") {
   
         const foundtask = data.task.find((message) =>
@@ -283,7 +325,21 @@ async function asyncPart(coin, interval, close, action, formattedMessage, messag
   
           bot.telegram.sendMessage(foundtask.chatID, formattedMessage, {
             reply_to_message_id: foundtask.buyMessageID,
-          })
+          }).then((result) => {
+  
+            const sellMessageID = result.message_id;
+    
+            data.task.push({
+              'message': formattedMessage,
+              'sellMessageID': sellMessageID,
+              'chatID': chatID,
+              'coin': coin,
+              'interval': interval
+            })
+    
+            fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
+    
+          });
   
           if (indexToRemove !== -1) {
             data.task.splice(indexToRemove, 1);
@@ -296,9 +352,22 @@ async function asyncPart(coin, interval, close, action, formattedMessage, messag
           }
   
         } else {
-          bot.telegram.sendMessage(chatID, formattedMessage, {
-            reply_to_message_id: messageID,
-          })
+          console.log("SELL Failed")
+          bot.telegram.sendMessage(chatID, formattedMessage).then((result) => {
+  
+            const sellMessageID = result.message_id;
+    
+            data.task.push({
+              'message': formattedMessage,
+              'sellMessageID': sellMessageID,
+              'chatID': chatID,
+              'coin': coin,
+              'interval': interval
+            })
+
+            fs.writeFileSync('db.json', JSON.stringify(data, null, 2));
+    
+          });
         }
   
       }
